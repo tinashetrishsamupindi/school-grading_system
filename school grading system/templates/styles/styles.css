@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+}
+
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.student-info {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height:150px;
+    border-radius: 80%;
+    margin-bottom: 20px;
+}
+
+.results {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 4px;
+    background-color:aquamarine
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:lightyellow;
+    text-align:center;
+}
+
+input[type=button] {
+    border: solid;
+    background-color:transparent;
+    text-align: center;
+}
+
+
+.button-container {
+    margin-top:50px;
+}
+
+.button-container button {
+    margin:0 10px;
+}
+
+.button-container:hover {
+    color:rgb(180, 242, 242);
+}
